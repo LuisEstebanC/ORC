@@ -1,0 +1,114 @@
+.containerPrincipal {
+    width: 100vh;
+    width: 100vw;
+    background-color: violet;
+}
+
+.containerSecundario {
+    position: absolute;
+    left: 50%;
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    border-radius: 13px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+    overflow: hidden;
+    background: linear-gradient(151deg, rgba(30, 250, 126, 0.53) 0%, hsl(199, 63%, 67%) 100%);
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 4px 1px 50px 15px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 10px 13px -7px #000000, 4px 1px 50px 15px rgba(0, 0, 0, 0.22);
+}
+
+.containerLogin {
+    text-align: center;
+    display: flex;
+}
+
+.header {
+    padding-bottom: 25%;
+    width: 310px;
+    height: 127px;
+    overflow: visible;
+    box-shadow: 0px 8px 16px 6px rgba(0, 0, 0, 0.04);
+    background-color: rgba(0, 153, 255, 0.5);
+    border-radius: 22px;
+    margin-block-end: auto;
+    margin-top: -12px;
+}
+
+.usercontF {
+    margin-top: 8%;
+    margin-left: 37%;
+    width: 90px;
+    height: 95px;
+    overflow: visible;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+}
+
+.usercont {
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 80px;
+    height: 70px;
+    overflow: visible;
+    background-image: url('../../images/user.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 21px;
+}
+
+.containerPrincipal .containerSecundario .containerLogin .form-group input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+    margin-bottom: 8%;
+}
+
+.containerPrincipal .containerSecundario .containerLogin .form-group .btn {
+    height: 42px;
+    width: 153px;
+    margin-top: 10%;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.containerPrincipal .containerSecundario .containerLogin .form-group label {
+    color: white;
+}
+
+.Usuario {
+    margin-left: -70%;
+}
+
+.Password {
+    margin-left: -54%;
+}
+
+.registrarlink {
+    margin-left: 66%;
+    margin-bottom: 4%;
+}
+
+.registrarlink :visited {
+    color: blueviolet;
+    margin-left: 66%
+}

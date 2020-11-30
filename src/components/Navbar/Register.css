@@ -1,0 +1,129 @@
+.containerPrincipalR {
+    width: 100vh;
+    width: 100vw;
+    background-color: violet;
+}
+
+.containerSecundarioR {
+    position: absolute;
+    left: 50%;
+    box-sizing: border-box;
+    width: 675px;
+    height: 438px;
+    display: flex;
+    border-radius: 13px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+    overflow: hidden;
+    background: linear-gradient(151deg, rgba(30, 250, 126, 0.53) 0%, hsl(199, 63%, 67%) 100%);
+    border-radius: 9px;
+    flex-flow: row wrap;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 4px 1px 50px 15px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 10px 13px -7px #000000, 4px 1px 50px 15px rgba(0, 0, 0, 0.22);
+}
+
+.containerRegister {
+    text-align: center;
+    margin-right: 22%;
+}
+
+.headerR {
+    width: 750px;
+    height: 150px;
+    overflow: visible;
+    box-shadow: 0px 8px 16px 6px rgba(0, 0, 0, 0.04);
+    background-color: rgba(0, 153, 255, 0.5);
+    border-radius: 22px;
+    margin-block-end: auto;
+    margin-top: -12px;
+}
+
+.usercontFR {
+    margin-top: 5%;
+    margin-left: 43%;
+    width: 90px;
+    height: 95px;
+    overflow: visible;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+}
+
+.usercontR {
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 80px;
+    height: 70px;
+    overflow: visible;
+    background-image: url('../../images/user.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 21px;
+}
+
+.containerPrincipalR .containerSecundarioR .containerRegister .form-group input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+    margin-bottom: 8%;
+}
+
+.containerPrincipalR .containerSecundarioR .containerRegister .form-group .btn {
+    height: 42px;
+    width: 153px;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    margin-top: 3%;
+}
+
+.containerPrincipalR .containerSecundarioR .containerRegister .form-group label {
+    color: white;
+    margin-left: -60%;
+}
+
+.Usuario {
+    margin-left: -66%;
+}
+
+.firstLine {
+    margin-top: 10%;
+    display: flex;
+}
+
+.secondLine {
+    display: flex;
+}
+
+.thirdLine {
+    display: flex;
+}
+
+.nombrecont {
+    margin-right: 20%;
+    margin-left: -5%;
+}
+
+.usuariocont {
+    margin-right: 20%;
+    margin-left: -5%;
+}
+
+.correocont {
+    margin-right: 20%;
+    margin-left: -5%;
+}
